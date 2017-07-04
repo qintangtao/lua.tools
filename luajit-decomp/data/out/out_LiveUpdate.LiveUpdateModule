@@ -1,0 +1,1162 @@
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc0()
+var_0_24 = "11111" --var_0_24 STRING-STRING
+print(var_0_24)
+var_0_23 = {} --to find out the contents of this table look inside the lua file
+var_0_23.szToken = INPUT_VAR_0_
+var_0_23.szNickName = INPUT_VAR_1_
+var_0_23.cFaceID = INPUT_VAR_2_
+var_0_23.cVipExpire = INPUT_VAR_3_
+var_0_23.cVipGrade = INPUT_VAR_4_
+var_0_23.iVipOverDate = INPUT_VAR_5_
+var_0_23.iUserID = INPUT_VAR_6_
+var_0_23.iUserType = INPUT_VAR_7_
+var_0_23.llGameCoin = INPUT_VAR_8_
+var_0_23.iRechargeCoin = INPUT_VAR_9_
+var_0_23.iPrizeTicket = INPUT_VAR_10_
+var_0_23.iGameLevel = 
+var_0_23.iGameExp = 
+var_0_23.iUpgradeExp = 
+var_0_23.iUpgradeCoin = 
+var_0_23.iLastLoginTime = 
+var_0_23.iLoginServerTime = 
+var_0_23.szLastLoginIP = 
+var_0_23.iGameID = 
+var_0_23.iServerID = 
+var_0_23.iGateServerID = 
+var_0_23.iLoginType = 
+var_0_23.iChannelID = 
+G_Exciting = var_0_23
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc1()
+if not INPUT_VAR_2_ then
+for var_1_3, var_1_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0004 (if previous if statement is false) --0004 JMP-JMP
+var_1_2 = "w+b" --var_1_2 STRING-STRING
+--location 0004--0004 LOCATION-LOCATION
+var_1_4 = INPUT_VAR_0_
+var_1_5 = var_1_2
+var_1_3 = io.open(var_1_4, var_1_5)
+if var_1_3 then
+for var_1_4, var_1_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0026 (if previous if statement is false) --0026 JMP-JMP
+var_1_5 = var_1_3
+var_1_6 = INPUT_VAR_1_
+var_1_4 = var_1_3.write(var_1_5, var_1_6)
+if var_1_4 == nil then
+for var_1_4, var_1_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0019 (if previous if statement is false) --0019 JMP-JMP
+var_1_4 = false --var_1_4 PRIMITIVE-PRIMITIVE
+return var_1_4
+--location 0019--0019 LOCATION-LOCATION
+var_1_5 = var_1_3
+io.close(var_1_5)
+var_1_4 = true --var_1_4 PRIMITIVE-PRIMITIVE
+return var_1_4
+for var_1_4, var_1_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0028 (if previous if statement is false) --0028 JMP-JMP
+--location 0026--0026 LOCATION-LOCATION
+var_1_4 = false --var_1_4 PRIMITIVE-PRIMITIVE
+return var_1_4
+--location 0028--0028 LOCATION-LOCATION
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc2()
+var_2_4 = true --var_2_4 PRIMITIVE-PRIMITIVE
+return string.find(uget_2_0, uget_2_1, uget_2_2, var_2_4)
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc3()
+var_3_3 = INPUT_VAR_0_
+var_3_2 = tostring(var_3_3)
+var_3_0 = var_3_2
+var_3_3 = INPUT_VAR_1_
+var_3_2 = tostring(var_3_3)
+var_3_1 = var_3_2
+if var_3_1 ==  "" then
+--jump to 0013 (if previous if statement is false) --0013 JMP-JMP
+var_3_2 = false --var_3_2 PRIMITIVE-PRIMITIVE
+--location 0013--0013 LOCATION-LOCATION
+var_3_2 = 0 --var_3_2 NUMBER-NUMBER
+var_3_3 = {}
+local randomFunction0 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_3_5 = nil
+var_3_6 = nil
+for var_3_7, var_3_8 in (randomFunction0 calling function) do --randomFunction0 FORTEST-FORTEST
+--jump to 0029 (if previous if statement is false) --0029 JMP-JMP
+var_3_10 = var_3_3
+var_3_12 = var_3_0
+var_3_13 = var_3_2
+var_3_14 = var_3_7 -  1 --var_3_14 NUMBER-NUMBER
+var_3_11 = string.sub(var_3_12, var_3_13, var_3_14) --var_3_11 REPLACE-REPLACE
+table.insert(var_3_10, var_3_11)
+var_3_2 = var_3_8 +  1 --var_3_2 NUMBER-NUMBER
+--location 0029--0029 LOCATION-LOCATION
+end --end of a for loop
+var_3_5 = var_3_3
+var_3_7 = var_3_0
+var_3_8 = var_3_2
+var_3_6 = string.sub(var_3_7, var_3_8) --var_3_6 REPLACE-REPLACE
+table.insert(var_3_5, var_3_6)
+return var_3_3
+return var_3_2
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc4()
+var_4_2 = INPUT_VAR_0_
+var_4_3 = "^[ \t\n\r]+" --var_4_3 STRING-STRING
+var_4_4 = "" --var_4_4 STRING-STRING
+var_4_1 = string.gsub(var_4_2, var_4_3, var_4_4)
+var_4_0 = var_4_1
+var_4_2 = var_4_0
+var_4_3 = "[ \t\n\r]+$" --var_4_3 STRING-STRING
+var_4_4 = "" --var_4_4 STRING-STRING
+return string.gsub(var_4_2, var_4_3, var_4_4)
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc5()
+var_5_1 = {}
+var_5_3 = INPUT_VAR_0_
+var_5_4 = "r" --var_5_4 STRING-STRING
+var_5_2 = io.open(var_5_3, var_5_4)
+if not var_5_2 then
+for var_5_3, var_5_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0010 (if previous if statement is false) --0010 JMP-JMP
+return var_5_1
+--location 0010--0010 LOCATION-LOCATION
+repeat
+var_5_4 = var_5_2
+var_5_5 = "*l" --var_5_5 STRING-STRING
+var_5_3 = var_5_2.read(var_5_4, var_5_5)
+if var_5_3 then
+for var_5_4, var_5_5 in (var_5_1 calling function) do --var_5_1 FORTEST-FORTEST
+--jump to 0064 (if previous if statement is false) --0064 JMP-JMP
+var_5_5 = var_5_3
+var_5_6 = "=" --var_5_6 STRING-STRING
+var_5_4 = uget_5_0(var_5_5, var_5_6)
+LEN unhandled at 0021
+var_5_6 = 2 --var_5_6 NUMBER-NUMBER
+if var_5_6 <= var_5_5 then
+for var_5_5, var_5_6 in (var_5_2 calling function) do --var_5_2 FORTEST-FORTEST
+--jump to 0010 (if previous if statement is false) --0010 JMP-JMP
+var_5_5 = uget_5_1(var_5_4.unknownB0)
+var_5_4[1] = var_5_5
+var_5_5 = uget_5_1(var_5_4.unknownB1)
+var_5_4[2] = var_5_5
+var_5_7 = "\" --var_5_7 STRING-STRING
+var_5_5 = uget_5_0(var_5_4.unknownB2, var_5_7)
+LEN unhandled at 0037
+var_5_7 = "" --var_5_7 STRING-STRING
+var_5_8 = 1 --var_5_8 NUMBER-NUMBER
+LEN unhandled at 0041
+var_5_9 = INPUT_VAR_9_ -  1 --var_5_9 NUMBER-NUMBER
+var_5_10 = 1 --var_5_10 NUMBER-NUMBER
+for var_5_11 = var_5_8,var_5_9,var_5_10 do --location 0044, loop ends at 0050-1
+var_5_12 = var_5_7
+var_5_14 = "/" --var_5_14 STRING-STRING
+var_5_7 = var_5_12 .. unknown4 .. var_5_14
+end --location 0049, loops back to 0045-1
+var_5_8 = {}
+var_5_8.name = unknown3
+var_5_8.path = var_5_7
+var_5_8.md5 = var_5_4.unknownB5
+var_5_10 = var_5_1
+var_5_11 = var_5_8
+table.insert(var_5_10, var_5_11)
+for var_5_5, var_5_6 in (var_5_2 calling function) do --var_5_2 FORTEST-FORTEST
+--jump to 0010 (if previous if statement is false) --0010 JMP-JMP
+for var_5_4, var_5_5 in (var_5_1 calling function) do --var_5_1 FORTEST-FORTEST
+--jump to 0010 (if previous if statement is false) --0010 JMP-JMP
+for var_5_3, var_5_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0064 (if previous if statement is false) --0064 JMP-JMP
+for var_5_3, var_5_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0010 (if previous if statement is false) --0010 JMP-JMP
+--location 0064--0064 LOCATION-LOCATION
+until false or (previous if statement is true) --location 0064
+var_5_4 = var_5_2
+var_5_2.close(var_5_4)
+return var_5_1
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc6()
+var_6_1 = {}
+var_6_0 = setmetatable(var_6_1, uget_6_0)
+var_6_0.class = uget_6_0
+var_6_2 = var_6_0
+--VARG appeared here - that usually means that the input for this function should be (...) and anywhere you see var0 or var1 or var2 ect. in this function should be replaced by (...)
+var_6_0.ctor(var_6_2, INPUT_VAR_3_)
+return var_6_0
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc7()
+INPUT_VAR_0_.byte = INPUT_VAR_1_
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc8()
+var_8_2 = 3 --var_8_2 NUMBER-NUMBER
+var_8_4 = G_Type
+var_8_3 = tonumber(var_8_4)
+if var_8_3 == 0 then
+for var_8_3, var_8_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0011 (if previous if statement is false) --0011 JMP-JMP
+for var_8_3, var_8_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0017 (if previous if statement is false) --0017 JMP-JMP
+--location 0011--0011 LOCATION-LOCATION
+var_8_4 = G_Type
+var_8_3 = tonumber(var_8_4)
+if var_8_3 == 1 then
+for var_8_3, var_8_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0017 (if previous if statement is false) --0017 JMP-JMP
+--location 0017--0017 LOCATION-LOCATION
+return ServerHosts
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc9()
+var_9_3 = INPUT_VAR_1_
+var_9_4 = "" --var_9_4 STRING-STRING
+var_9_2 = uget_9_0(var_9_3, var_9_4)
+ServerHosts = var_9_2
+var_9_3 = "LiveUpdate.LiveUpdateView" --var_9_3 STRING-STRING
+var_9_2 = require(var_9_3)
+var_9_2 = var_9_2.new()
+INPUT_VAR_0_.UpdateView = var_9_2
+var_9_3 = INPUT_VAR_0_
+INPUT_VAR_0_.CheckLobbyUpdate(var_9_3)
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc10()
+var_10_2 = 1 --var_10_2 NUMBER-NUMBER
+INPUT_VAR_0_.updateType = var_10_2
+var_10_3 = INPUT_VAR_0_.UpdateView
+var_10_4 = "正在检测大厅更新" --var_10_4 STRING-STRING
+INPUT_VAR_0_.UpdateView.setContent(var_10_3, var_10_4)
+var_10_3 = INPUT_VAR_0_
+var_10_2 = INPUT_VAR_0_.checkAPPType(var_10_3)
+var_10_4 = "---------------" --var_10_4 STRING-STRING
+print(var_10_4)
+ISTC unhandled at 0014
+for var_10_3, var_10_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0020 (if previous if statement is false) --0020 JMP-JMP
+LEN unhandled at 0018
+var_10_3 = math.random(var_10_4)
+--location 0020--0020 LOCATION-LOCATION
+INPUT_VAR_0_.index = var_10_3
+unknown6 = INPUT_VAR_0_
+var_10_3 = var_10_3 .. uget_10_1
+INPUT_VAR_10_ =  ""
+INPUT_VAR_0_.requestType = uget_10_3
+var_10_5 = INPUT_VAR_0_
+var_10_6 = var_10_3
+INPUT_VAR_0_.requestFromServer(var_10_5, var_10_6)
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc11()
+INPUT_VAR_0_.UpdateView = INPUT_VAR_1_
+var_11_4 = 2 --var_11_4 NUMBER-NUMBER
+INPUT_VAR_0_.updateType = var_11_4
+INPUT_VAR_0_.gameid = INPUT_VAR_2_
+var_11_5 = INPUT_VAR_0_
+var_11_4 = INPUT_VAR_0_.checkAPPType(var_11_5)
+ISTC unhandled at 0008
+for var_11_5, var_11_6 in (INPUT_VAR_2_ calling function) do --INPUT_VAR_2_ FORTEST-FORTEST
+--jump to 0014 (if previous if statement is false) --0014 JMP-JMP
+LEN unhandled at 0012
+var_11_5 = math.random(var_11_6)
+--location 0014--0014 LOCATION-LOCATION
+INPUT_VAR_0_.index = var_11_5
+unknown7 = INPUT_VAR_0_
+var_11_7 = "." --var_11_7 STRING-STRING
+var_11_5 = uget_11_1(unknown8.path, var_11_7)
+var_11_7 = "/" --var_11_7 STRING-STRING
+var_11_9 = "/" --var_11_9 STRING-STRING
+var_11_6 = var_11_6 .. var_11_7 .. var_11_5.unknownB10 .. var_11_9
+var_11_6 = INPUT_VAR_2_
+var_11_6 = var_11_6 .. uget_11_2 .. uget_11_3
+INPUT_VAR_0_.requestType = uget_11_4
+var_11_8 = INPUT_VAR_0_
+var_11_9 = var_11_6
+INPUT_VAR_0_.requestFromServer(var_11_8, var_11_9)
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc12()
+var_12_2 = uget_12_0
+var_12_3 = INPUT_VAR_0_
+uget_12_0.onResponse(var_12_2, var_12_3)
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc13()
+if not INPUT_VAR_2_ then
+for var_13_3, var_13_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0004 (if previous if statement is false) --0004 JMP-JMP
+var_13_2 = 15 --var_13_2 NUMBER-NUMBER
+--location 0004--0004 LOCATION-LOCATION
+var_13_4 = "url == " --var_13_4 STRING-STRING
+var_13_5 = INPUT_VAR_1_
+var_13_4 = var_13_4 .. var_13_5
+print(var_13_4)
+var_13_3 = "http://" --var_13_3 STRING-STRING
+var_13_4 = INPUT_VAR_1_
+var_13_3 = var_13_3 .. var_13_4
+INPUT_VAR_0_.url = var_13_3
+var_13_4 = "*****Resource  requestFromServer********" --strings longer than 40 characters get cut off, so check to see if there's more!
+print(var_13_4)
+var_13_4 = cc.HTTPRequest
+local randomFunction1 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_13_3 = cc.HTTPRequest.createWithUrl(var_13_4, randomFunction1, INPUT_VAR_0_.url, cc.kCCHTTPRequestMethodGET)
+var_13_5 = var_13_3
+var_13_6 = var_13_2
+var_13_3.setTimeout(var_13_5, var_13_6)
+var_13_5 = var_13_3
+var_13_3.start(var_13_5)
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc14()
+if INPUT_VAR_0_.requestType == uget_14_0 then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0019 (if previous if statement is false) --0019 JMP-JMP
+if INPUT_VAR_1_.dltotal then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0023 (if previous if statement is false) --0023 JMP-JMP
+var_14_4 = 0 --var_14_4 NUMBER-NUMBER
+if var_14_4 < INPUT_VAR_1_.dltotal then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0023 (if previous if statement is false) --0023 JMP-JMP
+var_14_4 = "下载进度 = " --var_14_4 STRING-STRING
+var_14_4 = var_14_4 .. INPUT_VAR_1_.dltotal
+print(var_14_4)
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0023 (if previous if statement is false) --0023 JMP-JMP
+--location 0019--0019 LOCATION-LOCATION
+if INPUT_VAR_0_.requestType == uget_14_1 then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0023 (if previous if statement is false) --0023 JMP-JMP
+--location 0023--0023 LOCATION-LOCATION
+if INPUT_VAR_1_.name ==  "completed" then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0194 (if previous if statement is false) --0194 JMP-JMP
+var_14_4 = INPUT_VAR_1_.request
+var_14_3 = INPUT_VAR_1_.request.getResponseStatusCode(var_14_4)
+if var_14_3 ~= 0 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0149 (if previous if statement is false) --0149 JMP-JMP
+if INPUT_VAR_0_.requestType == uget_14_2 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0081 (if previous if statement is false) --0081 JMP-JMP
+var_14_4 = INPUT_VAR_0_.index +  1 --var_14_4 NUMBER-NUMBER
+INPUT_VAR_0_.index = var_14_4
+LEN unhandled at 0040
+if ServerHosts < INPUT_VAR_0_.index then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0045 (if previous if statement is false) --0045 JMP-JMP
+var_14_4 = 1 --var_14_4 NUMBER-NUMBER
+INPUT_VAR_0_.index = var_14_4
+--location 0045--0045 LOCATION-LOCATION
+if INPUT_VAR_0_.tryCount then
+for var_14_5, var_14_6 in (INPUT_VAR_1_.request calling function) do --INPUT_VAR_1_.request FORTEST-FORTEST
+--jump to 0052 (if previous if statement is false) --0052 JMP-JMP
+var_14_4 = INPUT_VAR_0_.tryCount +  1 --var_14_4 NUMBER-NUMBER
+if not var_14_4 then
+for var_14_5, var_14_6 in (INPUT_VAR_1_.request calling function) do --INPUT_VAR_1_.request FORTEST-FORTEST
+--jump to 0053 (if previous if statement is false) --0053 JMP-JMP
+--location 0052--0052 LOCATION-LOCATION
+var_14_4 = 1 --var_14_4 NUMBER-NUMBER
+--location 0053--0053 LOCATION-LOCATION
+INPUT_VAR_0_.tryCount = var_14_4
+LEN unhandled at 0056
+if ServerHosts < INPUT_VAR_0_.tryCount then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0076 (if previous if statement is false) --0076 JMP-JMP
+var_14_5 = "下载出错---getResponseStatusCode() =" --var_14_5 STRING-STRING
+var_14_6 = var_14_3
+print(var_14_5, var_14_6)
+if var_14_3 == 2 then
+until false or (previous if statement is true) --location 0064
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0070 (if previous if statement is false) --0070 JMP-JMP
+var_14_5 = INPUT_VAR_0_
+var_14_6 = false --var_14_6 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_14_5, var_14_6)
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0074 (if previous if statement is false) --0074 JMP-JMP
+--location 0070--0070 LOCATION-LOCATION
+var_14_5 = INPUT_VAR_0_
+var_14_6 = false --var_14_6 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_14_5, var_14_6)
+--location 0074--0074 LOCATION-LOCATION
+return
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0076--0076 LOCATION-LOCATION
+var_14_5 = INPUT_VAR_0_
+INPUT_VAR_0_.CheckLobbyUpdate(var_14_5, INPUT_VAR_0_.index)
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0081--0081 LOCATION-LOCATION
+if INPUT_VAR_0_.requestType == uget_14_3 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0133 (if previous if statement is false) --0133 JMP-JMP
+var_14_4 = INPUT_VAR_0_.index +  1 --var_14_4 NUMBER-NUMBER
+INPUT_VAR_0_.index = var_14_4
+LEN unhandled at 0090
+if ServerHosts < INPUT_VAR_0_.index then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0095 (if previous if statement is false) --0095 JMP-JMP
+var_14_4 = 1 --var_14_4 NUMBER-NUMBER
+INPUT_VAR_0_.index = var_14_4
+--location 0095--0095 LOCATION-LOCATION
+if INPUT_VAR_0_.tryCount then
+for var_14_5, var_14_6 in (INPUT_VAR_1_.request calling function) do --INPUT_VAR_1_.request FORTEST-FORTEST
+--jump to 0102 (if previous if statement is false) --0102 JMP-JMP
+var_14_4 = INPUT_VAR_0_.tryCount +  1 --var_14_4 NUMBER-NUMBER
+if not var_14_4 then
+for var_14_5, var_14_6 in (INPUT_VAR_1_.request calling function) do --INPUT_VAR_1_.request FORTEST-FORTEST
+--jump to 0103 (if previous if statement is false) --0103 JMP-JMP
+--location 0102--0102 LOCATION-LOCATION
+var_14_4 = 1 --var_14_4 NUMBER-NUMBER
+--location 0103--0103 LOCATION-LOCATION
+INPUT_VAR_0_.tryCount = var_14_4
+LEN unhandled at 0106
+if ServerHosts < INPUT_VAR_0_.tryCount then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0126 (if previous if statement is false) --0126 JMP-JMP
+var_14_5 = "下载出错---getResponseStatusCode() =" --var_14_5 STRING-STRING
+var_14_6 = var_14_3
+print(var_14_5, var_14_6)
+if var_14_3 == 2 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0120 (if previous if statement is false) --0120 JMP-JMP
+var_14_5 = INPUT_VAR_0_
+var_14_6 = false --var_14_6 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_14_5, var_14_6)
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0124 (if previous if statement is false) --0124 JMP-JMP
+--location 0120--0120 LOCATION-LOCATION
+var_14_5 = INPUT_VAR_0_
+var_14_6 = false --var_14_6 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_14_5, var_14_6)
+--location 0124--0124 LOCATION-LOCATION
+return
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0126--0126 LOCATION-LOCATION
+var_14_5 = INPUT_VAR_0_
+INPUT_VAR_0_.CheckGameUpdate(var_14_5, INPUT_VAR_0_.UpdateView, INPUT_VAR_0_.gameid, INPUT_VAR_0_.index)
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0133--0133 LOCATION-LOCATION
+var_14_5 = "下载出错---getResponseStatusCode() =" --var_14_5 STRING-STRING
+var_14_6 = var_14_3
+print(var_14_5, var_14_6)
+if var_14_3 == 2 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0144 (if previous if statement is false) --0144 JMP-JMP
+var_14_5 = INPUT_VAR_0_
+var_14_6 = false --var_14_6 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_14_5, var_14_6)
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0144--0144 LOCATION-LOCATION
+var_14_5 = INPUT_VAR_0_
+var_14_6 = false --var_14_6 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_14_5, var_14_6)
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0149--0149 LOCATION-LOCATION
+if INPUT_VAR_0_.requestType ~= uget_14_2 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0157 (if previous if statement is false) --0157 JMP-JMP
+if INPUT_VAR_0_.requestType == uget_14_3 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0164 (if previous if statement is false) --0164 JMP-JMP
+--location 0157--0157 LOCATION-LOCATION
+var_14_5 = INPUT_VAR_0_
+var_14_7 = INPUT_VAR_1_.request
+var_14_6 = INPUT_VAR_1_.request.getResponseData(var_14_7) --var_14_6 REPLACE-REPLACE
+INPUT_VAR_0_.checkVersion(var_14_5, var_14_6)
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0164--0164 LOCATION-LOCATION
+if INPUT_VAR_0_.requestType ~= uget_14_4 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0172 (if previous if statement is false) --0172 JMP-JMP
+if INPUT_VAR_0_.requestType == uget_14_5 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0179 (if previous if statement is false) --0179 JMP-JMP
+--location 0172--0172 LOCATION-LOCATION
+var_14_5 = INPUT_VAR_0_
+var_14_7 = INPUT_VAR_1_.request
+var_14_6 = INPUT_VAR_1_.request.getResponseData(var_14_7) --var_14_6 REPLACE-REPLACE
+INPUT_VAR_0_.checkResList(var_14_5, var_14_6)
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0179--0179 LOCATION-LOCATION
+if INPUT_VAR_0_.requestType ~= uget_14_0 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0187 (if previous if statement is false) --0187 JMP-JMP
+if INPUT_VAR_0_.requestType == uget_14_1 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0187--0187 LOCATION-LOCATION
+var_14_5 = INPUT_VAR_0_
+var_14_7 = INPUT_VAR_1_.request
+var_14_6 = INPUT_VAR_1_.request.getResponseData(var_14_7) --var_14_6 REPLACE-REPLACE
+INPUT_VAR_0_.updateResource(var_14_5, var_14_6)
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0194--0194 LOCATION-LOCATION
+if INPUT_VAR_1_.name ==  "failed" then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+if INPUT_VAR_0_.requestType == uget_14_2 then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0246 (if previous if statement is false) --0246 JMP-JMP
+var_14_3 = INPUT_VAR_0_.index +  1 --var_14_3 NUMBER-NUMBER
+INPUT_VAR_0_.index = var_14_3
+LEN unhandled at 0206
+if ServerHosts < INPUT_VAR_0_.index then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0211 (if previous if statement is false) --0211 JMP-JMP
+var_14_3 = 1 --var_14_3 NUMBER-NUMBER
+INPUT_VAR_0_.index = var_14_3
+--location 0211--0211 LOCATION-LOCATION
+if INPUT_VAR_0_.tryCount then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0218 (if previous if statement is false) --0218 JMP-JMP
+var_14_3 = INPUT_VAR_0_.tryCount +  1 --var_14_3 NUMBER-NUMBER
+if not var_14_3 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0219 (if previous if statement is false) --0219 JMP-JMP
+--location 0218--0218 LOCATION-LOCATION
+var_14_3 = 1 --var_14_3 NUMBER-NUMBER
+--location 0219--0219 LOCATION-LOCATION
+INPUT_VAR_0_.tryCount = var_14_3
+LEN unhandled at 0222
+if ServerHosts < INPUT_VAR_0_.tryCount then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0241 (if previous if statement is false) --0241 JMP-JMP
+var_14_4 = "onRequest error REQUEST %d - getErrorCod" --strings longer than 40 characters get cut off, so check to see if there's more!
+var_14_7 = INPUT_VAR_1_.request
+var_14_6 = INPUT_VAR_1_.request.getErrorCode(var_14_7)
+var_14_8 = INPUT_VAR_1_.request
+var_14_7 = INPUT_VAR_1_.request.getErrorMessage(var_14_8) --var_14_7 REPLACE-REPLACE
+print(var_14_4, index, var_14_6, var_14_7)
+var_14_4 = INPUT_VAR_0_
+var_14_5 = false --var_14_5 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_14_4, var_14_5)
+return
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0241--0241 LOCATION-LOCATION
+var_14_4 = INPUT_VAR_0_
+INPUT_VAR_0_.CheckLobbyUpdate(var_14_4, INPUT_VAR_0_.index)
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0246--0246 LOCATION-LOCATION
+if INPUT_VAR_0_.requestType == uget_14_3 then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0297 (if previous if statement is false) --0297 JMP-JMP
+var_14_3 = INPUT_VAR_0_.index +  1 --var_14_3 NUMBER-NUMBER
+INPUT_VAR_0_.index = var_14_3
+LEN unhandled at 0255
+if ServerHosts < INPUT_VAR_0_.index then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0260 (if previous if statement is false) --0260 JMP-JMP
+var_14_3 = 1 --var_14_3 NUMBER-NUMBER
+INPUT_VAR_0_.index = var_14_3
+--location 0260--0260 LOCATION-LOCATION
+if INPUT_VAR_0_.tryCount then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0267 (if previous if statement is false) --0267 JMP-JMP
+var_14_3 = INPUT_VAR_0_.tryCount +  1 --var_14_3 NUMBER-NUMBER
+if not var_14_3 then
+for var_14_4, var_14_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0268 (if previous if statement is false) --0268 JMP-JMP
+--location 0267--0267 LOCATION-LOCATION
+var_14_3 = 1 --var_14_3 NUMBER-NUMBER
+--location 0268--0268 LOCATION-LOCATION
+INPUT_VAR_0_.tryCount = var_14_3
+LEN unhandled at 0271
+if ServerHosts < INPUT_VAR_0_.tryCount then
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0290 (if previous if statement is false) --0290 JMP-JMP
+var_14_4 = "onRequest error REQUEST %d - getErrorCod" --strings longer than 40 characters get cut off, so check to see if there's more!
+var_14_7 = INPUT_VAR_1_.request
+var_14_6 = INPUT_VAR_1_.request.getErrorCode(var_14_7)
+var_14_8 = INPUT_VAR_1_.request
+var_14_7 = INPUT_VAR_1_.request.getErrorMessage(var_14_8) --var_14_7 REPLACE-REPLACE
+print(var_14_4, index, var_14_6, var_14_7)
+var_14_4 = INPUT_VAR_0_
+var_14_5 = false --var_14_5 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_14_4, var_14_5)
+return
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0290--0290 LOCATION-LOCATION
+var_14_4 = INPUT_VAR_0_
+INPUT_VAR_0_.CheckGameUpdate(var_14_4, INPUT_VAR_0_.UpdateView, INPUT_VAR_0_.gameid, INPUT_VAR_0_.index)
+for var_14_3, var_14_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0311 (if previous if statement is false) --0311 JMP-JMP
+--location 0297--0297 LOCATION-LOCATION
+var_14_4 = "onRequest error REQUEST %d - getErrorCod" --strings longer than 40 characters get cut off, so check to see if there's more!
+var_14_7 = INPUT_VAR_1_.request
+var_14_6 = INPUT_VAR_1_.request.getErrorCode(var_14_7)
+var_14_8 = INPUT_VAR_1_.request
+var_14_7 = INPUT_VAR_1_.request.getErrorMessage(var_14_8) --var_14_7 REPLACE-REPLACE
+print(var_14_4, index, var_14_6, var_14_7)
+var_14_4 = INPUT_VAR_0_
+var_14_5 = false --var_14_5 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_14_4, var_14_5)
+--location 0311--0311 LOCATION-LOCATION
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc15()
+if INPUT_VAR_1_ then
+--jump to 0192 (if previous if statement is false) --0192 JMP-JMP
+var_15_3 = INPUT_VAR_0_.UpdateView
+var_15_4 = "正在检测版本号" --var_15_4 STRING-STRING
+INPUT_VAR_0_.UpdateView.setContent(var_15_3, var_15_4)
+var_15_2 = checkDirOK(uget_15_0, uget_15_1)
+if not var_15_2 then
+--jump to 0015 (if previous if statement is false) --0015 JMP-JMP
+return
+--location 0015--0015 LOCATION-LOCATION
+var_15_2 = {}
+INPUT_VAR_0_.tempData = var_15_2
+var_15_4 = "temp" --var_15_4 STRING-STRING
+var_15_2 = var_15_2 .. uget_15_1 .. var_15_4 .. uget_15_2
+var_15_4 = var_15_2
+var_15_5 = INPUT_VAR_1_
+uget_15_3(var_15_4, var_15_5)
+var_15_4 = "_filepath" --var_15_4 STRING-STRING
+var_15_5 = var_15_2
+print(var_15_4, var_15_5)
+var_15_4 = var_15_2
+var_15_5 = "r" --var_15_5 STRING-STRING
+var_15_3 = io.open(var_15_4, var_15_5)
+var_15_5 = var_15_3
+var_15_4 = var_15_3.read(var_15_5)
+var_15_6 = var_15_3
+var_15_3.close(var_15_6)
+var_15_5 = var_15_5 .. uget_15_1 .. uget_15_2
+var_15_7 = var_15_5
+var_15_8 = "r" --var_15_8 STRING-STRING
+var_15_6 = io.open(var_15_7, var_15_8)
+var_15_3 = var_15_6
+if not var_15_3 then
+for var_15_6, var_15_7 in (var_15_3 calling function) do --var_15_3 FORTEST-FORTEST
+--jump to 0076 (if previous if statement is false) --0076 JMP-JMP
+var_15_8 = INPUT_VAR_1_
+table.insert(INPUT_VAR_0_.tempData, var_15_8)
+if INPUT_VAR_0_.requestType == uget_15_4 then
+for var_15_6, var_15_7 in (var_15_3 calling function) do --var_15_3 FORTEST-FORTEST
+--jump to 0065 (if previous if statement is false) --0065 JMP-JMP
+INPUT_VAR_0_.requestType = uget_15_5
+until false or (previous if statement is true) --location 0064
+for var_15_6, var_15_7 in (var_15_3 calling function) do --var_15_3 FORTEST-FORTEST
+--jump to 0067 (if previous if statement is false) --0067 JMP-JMP
+--location 0065--0065 LOCATION-LOCATION
+INPUT_VAR_0_.requestType = uget_15_6
+--location 0067--0067 LOCATION-LOCATION
+var_15_6 = var_15_6 .. uget_15_1 .. uget_15_8
+var_15_8 = INPUT_VAR_0_
+var_15_9 = var_15_6
+INPUT_VAR_0_.requestFromServer(var_15_8, var_15_9)
+return
+--location 0076--0076 LOCATION-LOCATION
+var_15_7 = var_15_3
+var_15_6 = var_15_3.read(var_15_7)
+var_15_8 = var_15_3
+var_15_3.close(var_15_8)
+var_15_8 = "server Versoin : " --var_15_8 STRING-STRING
+var_15_9 = var_15_4
+var_15_8 = var_15_8 .. var_15_9
+var_15_9 = "client Version : " --var_15_9 STRING-STRING
+var_15_10 = var_15_6
+var_15_9 = var_15_9 .. var_15_10
+print(var_15_8, var_15_9)
+var_15_8 = var_15_6
+var_15_9 = "." --var_15_9 STRING-STRING
+var_15_7 = uget_15_9(var_15_8, var_15_9)
+var_15_9 = var_15_4
+var_15_10 = "." --var_15_10 STRING-STRING
+var_15_8 = uget_15_9(var_15_9, var_15_10)
+var_15_9 = false --var_15_9 PRIMITIVE-PRIMITIVE
+LEN unhandled at 0099
+var_15_11 = 4 --var_15_11 NUMBER-NUMBER
+if var_15_11 <= var_15_10 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0115 (if previous if statement is false) --0115 JMP-JMP
+LEN unhandled at 0103
+var_15_11 = 4 --var_15_11 NUMBER-NUMBER
+if var_15_11 <= var_15_10 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0115 (if previous if statement is false) --0115 JMP-JMP
+var_15_10 = tonumber(var_15_8.unknownB11)
+var_15_11 = tonumber(var_15_7.unknownB12)
+if not (var_15_11 < var_15_10) then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0123 (if previous if statement is false) --0123 JMP-JMP
+--location 0115--0115 LOCATION-LOCATION
+LEN unhandled at 0115
+var_15_11 = 4 --var_15_11 NUMBER-NUMBER
+if var_15_11 <= var_15_10 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0125 (if previous if statement is false) --0125 JMP-JMP
+LEN unhandled at 0119
+var_15_11 = 4 --var_15_11 NUMBER-NUMBER
+if var_15_10 < var_15_11 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0125 (if previous if statement is false) --0125 JMP-JMP
+--location 0123--0123 LOCATION-LOCATION
+var_15_9 = true --var_15_9 PRIMITIVE-PRIMITIVE
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0154 (if previous if statement is false) --0154 JMP-JMP
+--location 0125--0125 LOCATION-LOCATION
+var_15_10 = tonumber(var_15_8.unknownB13)
+var_15_11 = tonumber(var_15_7.unknownB14)
+if var_15_11 < var_15_10 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0135 (if previous if statement is false) --0135 JMP-JMP
+var_15_9 = true --var_15_9 PRIMITIVE-PRIMITIVE
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0154 (if previous if statement is false) --0154 JMP-JMP
+--location 0135--0135 LOCATION-LOCATION
+var_15_10 = tonumber(var_15_8.unknownB15)
+var_15_11 = tonumber(var_15_7.unknownB16)
+if var_15_11 < var_15_10 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0145 (if previous if statement is false) --0145 JMP-JMP
+var_15_9 = true --var_15_9 PRIMITIVE-PRIMITIVE
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0154 (if previous if statement is false) --0154 JMP-JMP
+--location 0145--0145 LOCATION-LOCATION
+var_15_10 = tonumber(var_15_8.unknownB17)
+var_15_11 = tonumber(var_15_7.unknownB18)
+if var_15_11 < var_15_10 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0154 (if previous if statement is false) --0154 JMP-JMP
+var_15_9 = true --var_15_9 PRIMITIVE-PRIMITIVE
+--location 0154--0154 LOCATION-LOCATION
+if not var_15_9 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0165 (if previous if statement is false) --0165 JMP-JMP
+var_15_11 = "最新版，无需更新" --var_15_11 STRING-STRING
+print(var_15_11)
+var_15_11 = INPUT_VAR_0_
+var_15_12 = true --var_15_12 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_15_11, var_15_12)
+return
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0192 (if previous if statement is false) --0192 JMP-JMP
+--location 0165--0165 LOCATION-LOCATION
+var_15_12 = INPUT_VAR_1_
+table.insert(INPUT_VAR_0_.tempData, var_15_12)
+if INPUT_VAR_0_.requestType == uget_15_4 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0177 (if previous if statement is false) --0177 JMP-JMP
+INPUT_VAR_0_.requestType = uget_15_5
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0179 (if previous if statement is false) --0179 JMP-JMP
+--location 0177--0177 LOCATION-LOCATION
+INPUT_VAR_0_.requestType = uget_15_6
+--location 0179--0179 LOCATION-LOCATION
+var_15_11 = INPUT_VAR_0_.UpdateView
+var_15_12 = "正在获取更新列表" --var_15_12 STRING-STRING
+INPUT_VAR_0_.UpdateView.setContent(var_15_11, var_15_12)
+var_15_10 = var_15_10 .. uget_15_1 .. uget_15_8
+var_15_12 = INPUT_VAR_0_
+var_15_13 = var_15_10
+INPUT_VAR_0_.requestFromServer(var_15_12, var_15_13)
+--location 0192--0192 LOCATION-LOCATION
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc16()
+if INPUT_VAR_1_ then
+--jump to 0137 (if previous if statement is false) --0137 JMP-JMP
+var_16_4 = "temp" --var_16_4 STRING-STRING
+var_16_2 = var_16_2 .. uget_16_1 .. var_16_4 .. uget_16_2
+var_16_4 = var_16_2
+var_16_5 = INPUT_VAR_1_
+uget_16_3(var_16_4, var_16_5)
+var_16_4 = var_16_2
+var_16_3 = uget_16_4(var_16_4)
+var_16_4 = var_16_4 .. uget_16_1 .. uget_16_2
+var_16_5 = {}
+var_16_7 = var_16_4
+var_16_6 = uget_16_4(var_16_7)
+var_16_5 = var_16_6
+var_16_6 = {}
+INPUT_VAR_0_.beUpdateList = var_16_6
+if var_16_3 ~= var_16_5 then
+for var_16_6, var_16_7 in (var_16_3 calling function) do --var_16_3 FORTEST-FORTEST
+--jump to 0068 (if previous if statement is false) --0068 JMP-JMP
+var_16_7 = var_16_3
+var_16_6, var_16_7, var_16_8 = pairs(var_16_7)
+for var_16_9, var_16_10 in (var_16_6 calling function) do --var_16_6 FORTEST-FORTEST
+var_16_11 = true --var_16_11 PRIMITIVE-PRIMITIVE
+var_16_13 = var_16_5
+var_16_12, var_16_13, var_16_14 = pairs(var_16_13)
+for var_16_15, var_16_16 in (var_16_12 calling function) do --var_16_12 FORTEST-FORTEST
+if var_16_10.path == var_16_16.path then
+for var_16_17, var_16_18 in (var_16_14 calling function) do --var_16_14 FORTEST-FORTEST
+--jump to 0053 (if previous if statement is false) --0053 JMP-JMP
+if var_16_10.name == var_16_16.name then
+for var_16_17, var_16_18 in (var_16_14 calling function) do --var_16_14 FORTEST-FORTEST
+--jump to 0053 (if previous if statement is false) --0053 JMP-JMP
+if var_16_10.md5 == var_16_16.md5 then
+for var_16_17, var_16_18 in (var_16_14 calling function) do --var_16_14 FORTEST-FORTEST
+--jump to 0051 (if previous if statement is false) --0051 JMP-JMP
+var_16_11 = false --var_16_11 PRIMITIVE-PRIMITIVE
+for var_16_17, var_16_18 in (var_16_14 calling function) do --var_16_14 FORTEST-FORTEST
+--jump to 0055 (if previous if statement is false) --0055 JMP-JMP
+--location 0051--0051 LOCATION-LOCATION
+var_16_11 = true --var_16_11 PRIMITIVE-PRIMITIVE
+for var_16_12, var_16_13 in (var_16_9 calling function) do --var_16_9 FORTEST-FORTEST
+--jump to 0055 (if previous if statement is false) --0055 JMP-JMP
+--location 0053--0053 LOCATION-LOCATION
+end --end of a for loop
+--location 0055--0055 LOCATION-LOCATION
+if var_16_11 == true then
+for var_16_12, var_16_13 in (var_16_9 calling function) do --var_16_9 FORTEST-FORTEST
+--jump to 0066 (if previous if statement is false) --0066 JMP-JMP
+if var_16_10.name ~=  "" then
+for var_16_12, var_16_13 in (var_16_9 calling function) do --var_16_9 FORTEST-FORTEST
+--jump to 0066 (if previous if statement is false) --0066 JMP-JMP
+var_16_10.index = var_16_9
+until false or (previous if statement is true) --location 0064
+var_16_14 = var_16_10
+table.insert(INPUT_VAR_0_.beUpdateList, var_16_14)
+--location 0066--0066 LOCATION-LOCATION
+end --end of a for loop
+--location 0068--0068 LOCATION-LOCATION
+var_16_8 = INPUT_VAR_1_
+table.insert(INPUT_VAR_0_.tempData, var_16_8)
+var_16_6 = 1 --var_16_6 NUMBER-NUMBER
+INPUT_VAR_0_.currUpdFileIndex = var_16_6
+if INPUT_VAR_0_.requestType == uget_16_5 then
+for var_16_6, var_16_7 in (var_16_3 calling function) do --var_16_3 FORTEST-FORTEST
+--jump to 0082 (if previous if statement is false) --0082 JMP-JMP
+INPUT_VAR_0_.requestType = uget_16_6
+for var_16_6, var_16_7 in (var_16_3 calling function) do --var_16_3 FORTEST-FORTEST
+--jump to 0084 (if previous if statement is false) --0084 JMP-JMP
+--location 0082--0082 LOCATION-LOCATION
+INPUT_VAR_0_.requestType = uget_16_7
+--location 0084--0084 LOCATION-LOCATION
+var_16_7 = "长度=" --var_16_7 STRING-STRING
+LEN unhandled at 0087
+var_16_7 = var_16_7 .. INPUT_VAR_0_.beUpdateList
+print(var_16_7)
+LEN unhandled at 0091
+var_16_7 = 0 --var_16_7 NUMBER-NUMBER
+if var_16_7 < INPUT_VAR_0_.beUpdateList then
+for var_16_6, var_16_7 in (var_16_3 calling function) do --var_16_3 FORTEST-FORTEST
+--jump to 0130 (if previous if statement is false) --0130 JMP-JMP
+var_16_7 = INPUT_VAR_0_.UpdateView
+var_16_8 = "正在更新" --var_16_8 STRING-STRING
+INPUT_VAR_0_.UpdateView.setContent(var_16_7, var_16_8)
+var_16_7 = var_16_7 .. uget_16_1 .. uget_16_2
+var_16_8 = "w" --var_16_8 STRING-STRING
+var_16_6 = io.open(var_16_7, var_16_8)
+INPUT_VAR_0_.ListFile = var_16_6
+var_16_7 = INPUT_VAR_0_.ListFile
+var_16_8 = "[files]" --var_16_8 STRING-STRING
+INPUT_VAR_0_.ListFile.write(var_16_7, var_16_8)
+var_16_6 = var_16_6 .. uget_16_1 .. unknown19.path .. unknown20.name
+var_16_8 = INPUT_VAR_0_
+var_16_9 = var_16_6
+INPUT_VAR_0_.requestFromServer(var_16_8, var_16_9)
+for var_16_6, var_16_7 in (var_16_3 calling function) do --var_16_3 FORTEST-FORTEST
+--jump to 0137 (if previous if statement is false) --0137 JMP-JMP
+--location 0130--0130 LOCATION-LOCATION
+var_16_7 = "没有需要更新的内容！" --var_16_7 STRING-STRING
+print(var_16_7)
+var_16_7 = INPUT_VAR_0_
+var_16_8 = true --var_16_8 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_16_7, var_16_8)
+--location 0137--0137 LOCATION-LOCATION
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc17()
+if INPUT_VAR_1_ then
+--jump to 0058 (if previous if statement is false) --0058 JMP-JMP
+var_17_4 = var_17_4 .. unknown21.path
+var_17_2 = checkDirOK(uget_17_0, var_17_4)
+if var_17_2 then
+for var_17_3, var_17_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0054 (if previous if statement is false) --0054 JMP-JMP
+var_17_3 = var_17_3 .. uget_17_1 .. unknown22.path .. unknown23.name
+var_17_4 = INPUT_VAR_1_
+uget_17_2(var_17_3, var_17_4)
+var_17_4 = "/" --var_17_4 STRING-STRING
+var_17_5 = "\" --var_17_5 STRING-STRING
+var_17_2 = string.gsub(unknown24.path, var_17_4, var_17_5)
+var_17_4 = INPUT_VAR_0_.ListFile
+var_17_5 = "\n" --var_17_5 STRING-STRING
+var_17_6 = var_17_2
+var_17_8 = " = " --var_17_8 STRING-STRING
+var_17_5 = var_17_5 .. var_17_6 .. unknown25.name .. var_17_8 .. unknown26.md5
+INPUT_VAR_0_.ListFile.write(var_17_4, var_17_5)
+--jump to 0058 (if previous if statement is false) --0058 JMP-JMP
+--location 0054--0054 LOCATION-LOCATION
+var_17_3 = "创建文件夹失败！" --var_17_3 STRING-STRING
+print(var_17_3)
+return
+--location 0058--0058 LOCATION-LOCATION
+LEN unhandled at 0060
+if INPUT_VAR_0_.beUpdateList <= INPUT_VAR_0_.currUpdFileIndex then
+--jump to 0090 (if previous if statement is false) --0090 JMP-JMP
+until false or (previous if statement is true) --location 0064
+var_17_3 = INPUT_VAR_0_.UpdateView
+var_17_4 = "正在更新 100%" --var_17_4 STRING-STRING
+var_17_5 = 100 --var_17_5 NUMBER-NUMBER
+INPUT_VAR_0_.UpdateView.setContent(var_17_3, var_17_4, var_17_5)
+var_17_3 = var_17_3 .. uget_17_1 .. uget_17_3
+uget_17_2(var_17_3, INPUT_VAR_0_.tempData.unknownB27)
+var_17_3 = var_17_3 .. uget_17_1 .. uget_17_4
+uget_17_2(var_17_3, INPUT_VAR_0_.tempData.unknownB28)
+var_17_3 = INPUT_VAR_0_
+var_17_4 = true --var_17_4 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.onUpdateEnd(var_17_3, var_17_4)
+--jump to 0125 (if previous if statement is false) --0125 JMP-JMP
+--location 0090--0090 LOCATION-LOCATION
+var_17_3 =  100 * INPUT_VAR_0_.currUpdFileIndex --var_17_3 NUMBER-NUMBER
+LEN unhandled at 0095
+var_17_3 = var_17_3 / INPUT_VAR_0_.beUpdateList --var_17_3 NUMBER-NUMBER
+var_17_2 = math.floor(var_17_3)
+var_17_4 = INPUT_VAR_0_.UpdateView
+var_17_5 = "正在更新 " --var_17_5 STRING-STRING
+var_17_6 = var_17_2
+var_17_7 = "%" --var_17_7 STRING-STRING
+var_17_5 = var_17_5 .. var_17_6 .. var_17_7
+var_17_6 = var_17_2
+INPUT_VAR_0_.UpdateView.setContent(var_17_4, var_17_5, var_17_6)
+var_17_3 = INPUT_VAR_0_.currUpdFileIndex +  1 --var_17_3 NUMBER-NUMBER
+INPUT_VAR_0_.currUpdFileIndex = var_17_3
+var_17_3 = var_17_3 .. uget_17_1 .. unknown29.path .. unknown30.name
+var_17_5 = INPUT_VAR_0_
+var_17_6 = var_17_3
+INPUT_VAR_0_.requestFromServer(var_17_5, var_17_6)
+--location 0125--0125 LOCATION-LOCATION
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc18()
+if INPUT_VAR_0_.ListFile then
+for var_18_3, var_18_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0008 (if previous if statement is false) --0008 JMP-JMP
+var_18_3 = INPUT_VAR_0_.ListFile
+INPUT_VAR_0_.ListFile.close(var_18_3)
+--location 0008--0008 LOCATION-LOCATION
+var_18_3 = INPUT_VAR_0_.UpdateView
+INPUT_VAR_0_.UpdateView.destory(var_18_3)
+var_18_2 = nil --var_18_2 PRIMITIVE-PRIMITIVE
+INPUT_VAR_0_.UpdateView = var_18_2
+if INPUT_VAR_1_ then
+--jump to 0159 (if previous if statement is false) --0159 JMP-JMP
+if INPUT_VAR_0_.updateType == 0 then
+--jump to 0117 (if previous if statement is false) --0117 JMP-JMP
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.preload.LiveUpdate.ServerHost = var_18_3
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.preload.LiveUpdate.LiveUpdateUtil = var_18_3
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.preload.LiveUpdate.LiveUpdateView = var_18_3
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.preload.LiveUpdate.LiveUpdateModule = var_18_3
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.preload.LiveUpdate.MessageBox = var_18_3
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.loaded.LiveUpdate.ServerHost = var_18_3
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.loaded.LiveUpdate.LiveUpdateUtil = var_18_3
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.loaded.LiveUpdate.LiveUpdateView = var_18_3
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.loaded.LiveUpdate.LiveUpdateModule = var_18_3
+var_18_3 = nil --var_18_3 PRIMITIVE-PRIMITIVE
+package.loaded.LiveUpdate.MessageBox = var_18_3
+var_18_2 = tonumber(INPUT_VAR_0_.byte)
+if var_18_2 == 1 then
+--jump to 0081 (if previous if statement is false) --0081 JMP-JMP
+until false or (previous if statement is true) --location 0064
+var_18_3 = "res/lobby64.zip" --var_18_3 STRING-STRING
+cc.LuaLoadChunksFromZIP(var_18_3)
+var_18_3 = "res/framework_precompiled64.zip" --var_18_3 STRING-STRING
+cc.LuaLoadChunksFromZIP(var_18_3)
+var_18_3 = "res/cocos_precompiled64.zip" --var_18_3 STRING-STRING
+cc.LuaLoadChunksFromZIP(var_18_3)
+var_18_3 = "res/liveupdate_precompiled64.zip" --var_18_3 STRING-STRING
+cc.LuaLoadChunksFromZIP(var_18_3)
+--jump to 0097 (if previous if statement is false) --0097 JMP-JMP
+--location 0081--0081 LOCATION-LOCATION
+var_18_3 = "res/lobby.zip" --var_18_3 STRING-STRING
+cc.LuaLoadChunksFromZIP(var_18_3)
+var_18_3 = "res/framework_precompiled.zip" --var_18_3 STRING-STRING
+cc.LuaLoadChunksFromZIP(var_18_3)
+var_18_3 = "res/cocos_precompiled.zip" --var_18_3 STRING-STRING
+cc.LuaLoadChunksFromZIP(var_18_3)
+var_18_3 = "res/liveupdate_precompiled.zip" --var_18_3 STRING-STRING
+cc.LuaLoadChunksFromZIP(var_18_3)
+--location 0097--0097 LOCATION-LOCATION
+var_18_3 = "main" --var_18_3 STRING-STRING
+require(var_18_3)
+Global.byte = INPUT_VAR_0_.byte
+if device.platform ~=  "windows" then
+--jump to 0110 (if previous if statement is false) --0110 JMP-JMP
+Global.AuthenData = G_Exciting
+--location 0110--0110 LOCATION-LOCATION
+Global.iChannelID = G_Exciting.iChannelID
+G_ShowGameList()
+--jump to 0155 (if previous if statement is false) --0155 JMP-JMP
+--location 0117--0117 LOCATION-LOCATION
+if INPUT_VAR_0_.updateType == 2 then
+--jump to 0155 (if previous if statement is false) --0155 JMP-JMP
+var_18_2 = tonumber(Global.byte)
+if var_18_2 == 1 then
+--jump to 0133 (if previous if statement is false) --0133 JMP-JMP
+var_18_4 = "game64.zip" --var_18_4 STRING-STRING
+var_18_3 = var_18_3 .. var_18_4
+cc.LuaLoadChunksFromZIP(var_18_3)
+--jump to 0139 (if previous if statement is false) --0139 JMP-JMP
+--location 0133--0133 LOCATION-LOCATION
+var_18_4 = "game.zip" --var_18_4 STRING-STRING
+var_18_3 = var_18_3 .. var_18_4
+cc.LuaLoadChunksFromZIP(var_18_3)
+--location 0139--0139 LOCATION-LOCATION
+var_18_2 = Global.getServerInfos(INPUT_VAR_0_.gameid)
+LEN unhandled at 0143
+var_18_4 = 0 --var_18_4 NUMBER-NUMBER
+if var_18_4 < INPUT_VAR_0_.gameid then
+for var_18_3, var_18_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0152 (if previous if statement is false) --0152 JMP-JMP
+Global.ConnectGame(var_18_2.unknownB31.iServerID)
+--location 0152--0152 LOCATION-LOCATION
+var_18_4 = false --var_18_4 PRIMITIVE-PRIMITIVE
+Global.updateing = var_18_4
+--location 0155--0155 LOCATION-LOCATION
+var_18_3 = "更新成功" --var_18_3 STRING-STRING
+print(var_18_3)
+--jump to 0185 (if previous if statement is false) --0185 JMP-JMP
+--location 0159--0159 LOCATION-LOCATION
+var_18_3 = "更新失败" --var_18_3 STRING-STRING
+print(var_18_3)
+var_18_3 = "LiveUpdate.MessageBox" --var_18_3 STRING-STRING
+var_18_2 = require(var_18_3)
+var_18_2 = var_18_2.new()
+var_18_3 = var_18_2
+var_18_4 = nil --var_18_4 PRIMITIVE-PRIMITIVE
+var_18_5 = "更新失败" --var_18_5 STRING-STRING
+var_18_6 = 2 --var_18_6 NUMBER-NUMBER
+var_18_7 = nil --var_18_7 PRIMITIVE-PRIMITIVE
+var_18_8 = true --var_18_8 PRIMITIVE-PRIMITIVE
+var_18_2.init(var_18_3, var_18_4, var_18_5, var_18_6, var_18_7, var_18_8)
+if Global then
+for var_18_3, var_18_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0185 (if previous if statement is false) --0185 JMP-JMP
+var_18_3 = false --var_18_3 PRIMITIVE-PRIMITIVE
+Global.showLoading(var_18_3)
+var_18_3 = false --var_18_3 PRIMITIVE-PRIMITIVE
+Global.updateing = var_18_3
+--location 0185--0185 LOCATION-LOCATION
+return
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateModule:0-0
+function someFunc19()
+var_19_0 = {}
+G_Exciting = var_19_0
+local randomFunction2 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+G_GoToExciting = randomFunction2
+var_19_1 = "LiveUpdate.LiveUpdateUtil" --var_19_1 STRING-STRING
+require(var_19_1)
+var_19_0 = 0 --var_19_0 NUMBER-NUMBER
+var_19_1 = 1 --var_19_1 NUMBER-NUMBER
+var_19_2 = 2 --var_19_2 NUMBER-NUMBER
+var_19_3 = 3 --var_19_3 NUMBER-NUMBER
+var_19_4 = 4 --var_19_4 NUMBER-NUMBER
+var_19_5 = 5 --var_19_5 NUMBER-NUMBER
+var_19_7 = cc.FileUtils
+var_19_6 = cc.FileUtils.getInstance(var_19_7)
+var_19_7 = var_19_6
+var_19_6 = var_19_6.getWritablePath(var_19_7)
+var_19_7 = "res/" --var_19_7 STRING-STRING
+var_19_6 = var_19_6 .. var_19_7
+var_19_8 = cc.FileUtils
+var_19_7 = cc.FileUtils.getInstance(var_19_8)
+var_19_8 = var_19_7
+var_19_9 = var_19_6
+var_19_10 = true --var_19_10 PRIMITIVE-PRIMITIVE
+var_19_7.addSearchPath(var_19_8, var_19_9, var_19_10)
+var_19_7 = "version.files" --var_19_7 STRING-STRING
+var_19_8 = "repair.files" --var_19_8 STRING-STRING
+var_19_9 = "repair.files" --var_19_9 STRING-STRING
+var_19_10 = "" --var_19_10 STRING-STRING
+var_19_11 = "" --var_19_11 STRING-STRING
+local randomFunction3 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+local randomFunction4 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+local randomFunction5 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+local randomFunction6 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16 = {}
+var_19_17 = "LiveUpdateModule" --var_19_17 STRING-STRING
+var_19_16.__cname = var_19_17
+var_19_16.__index = var_19_16
+var_19_17 = 2 --var_19_17 NUMBER-NUMBER
+var_19_16.__ctype = var_19_17
+local randomFunction7 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.new = randomFunction7
+local randomFunction8 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.ctor = randomFunction8
+local randomFunction9 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.checkAPPType = randomFunction9
+local randomFunction10 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.run = randomFunction10
+local randomFunction11 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.CheckLobbyUpdate = randomFunction11
+local randomFunction12 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.CheckGameUpdate = randomFunction12
+local randomFunction13 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.requestFromServer = randomFunction13
+local randomFunction14 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+until false or (previous if statement is true) --location 0064
+var_19_16.onResponse = randomFunction14
+local randomFunction15 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.checkVersion = randomFunction15
+local randomFunction16 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.checkResList = randomFunction16
+local randomFunction17 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.updateResource = randomFunction17
+local randomFunction18 = function() end -- starts at  LiveUpdate.LiveUpdateModule:0
+var_19_16.onUpdateEnd = randomFunction18
+return var_19_16
+end
+

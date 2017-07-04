@@ -1,0 +1,250 @@
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc21()
+var_21_2 = INPUT_VAR_0_
+var_21_3 = "rb" --var_21_3 STRING-STRING
+var_21_1 = io.open(var_21_2, var_21_3)
+if var_21_1 then
+--jump to 0017 (if previous if statement is false) --0017 JMP-JMP
+var_21_3 = var_21_1
+var_21_4 = "*all" --var_21_4 STRING-STRING
+var_21_2 = var_21_1.read(var_21_3, var_21_4)
+var_21_4 = var_21_1
+io.close(var_21_4)
+return var_21_2
+--location 0017--0017 LOCATION-LOCATION
+var_21_2 = nil --var_21_2 PRIMITIVE-PRIMITIVE
+return var_21_2
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc22()
+var_22_4 = true --var_22_4 PRIMITIVE-PRIMITIVE
+return string.find(uget_22_0, uget_22_1, uget_22_2, var_22_4)
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc23()
+var_23_3 = INPUT_VAR_0_
+var_23_2 = tostring(var_23_3)
+var_23_0 = var_23_2
+var_23_3 = INPUT_VAR_1_
+var_23_2 = tostring(var_23_3)
+var_23_1 = var_23_2
+if var_23_1 ==  "" then
+--jump to 0013 (if previous if statement is false) --0013 JMP-JMP
+var_23_2 = false --var_23_2 PRIMITIVE-PRIMITIVE
+--location 0013--0013 LOCATION-LOCATION
+var_23_2 = 0 --var_23_2 NUMBER-NUMBER
+var_23_3 = {}
+local randomFunction19 = function() end -- starts at  LiveUpdate.LiveUpdateUtil:0
+var_23_5 = nil
+var_23_6 = nil
+for var_23_7, var_23_8 in (randomFunction19 calling function) do --randomFunction19 FORTEST-FORTEST
+--jump to 0029 (if previous if statement is false) --0029 JMP-JMP
+var_23_10 = var_23_3
+var_23_12 = var_23_0
+var_23_13 = var_23_2
+var_23_14 = var_23_7 -  1 --var_23_14 NUMBER-NUMBER
+var_23_11 = string.sub(var_23_12, var_23_13, var_23_14) --var_23_11 REPLACE-REPLACE
+table.insert(var_23_10, var_23_11)
+var_23_2 = var_23_8 +  1 --var_23_2 NUMBER-NUMBER
+--location 0029--0029 LOCATION-LOCATION
+end --end of a for loop
+var_23_5 = var_23_3
+var_23_7 = var_23_0
+var_23_8 = var_23_2
+var_23_6 = string.sub(var_23_7, var_23_8) --var_23_6 REPLACE-REPLACE
+table.insert(var_23_5, var_23_6)
+return var_23_3
+return var_23_2
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc24()
+var_24_2 = lfs.currentdir()
+var_24_4 = INPUT_VAR_1_
+var_24_5 = INPUT_VAR_0_
+var_24_4 = var_24_4 .. var_24_5
+var_24_3 = lfs.chdir(var_24_4)
+if var_24_3 then
+for var_24_4, var_24_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0018 (if previous if statement is false) --0018 JMP-JMP
+var_24_4 = var_24_2
+lfs.chdir(var_24_4)
+var_24_3 = true --var_24_3 PRIMITIVE-PRIMITIVE
+return var_24_3
+--location 0018--0018 LOCATION-LOCATION
+var_24_4 = INPUT_VAR_0_
+var_24_5 = "/" --var_24_5 STRING-STRING
+var_24_3 = uget_24_0(var_24_4, var_24_5)
+var_24_4 = INPUT_VAR_1_
+var_24_6 = "/" --var_24_6 STRING-STRING
+var_24_4 = var_24_4 .. var_24_3.unknownB32 .. var_24_6
+var_24_6 = var_24_4
+var_24_5 = lfs.chdir(var_24_6)
+if var_24_5 then
+for var_24_6, var_24_7 in (var_24_3 calling function) do --var_24_3 FORTEST-FORTEST
+--jump to 0037 (if previous if statement is false) --0037 JMP-JMP
+var_24_6 = var_24_2
+lfs.chdir(var_24_6)
+for var_24_5, var_24_6 in (var_24_2 calling function) do --var_24_2 FORTEST-FORTEST
+--jump to 0045 (if previous if statement is false) --0045 JMP-JMP
+--location 0037--0037 LOCATION-LOCATION
+var_24_6 = var_24_4
+var_24_5 = lfs.mkdir(var_24_6)
+if not var_24_5 then
+for var_24_5, var_24_6 in (var_24_2 calling function) do --var_24_2 FORTEST-FORTEST
+--jump to 0045 (if previous if statement is false) --0045 JMP-JMP
+var_24_5 = false --var_24_5 PRIMITIVE-PRIMITIVE
+return var_24_5
+--location 0045--0045 LOCATION-LOCATION
+var_24_5 = "" --var_24_5 STRING-STRING
+if var_24_3.unknownB33 then
+for var_24_7, var_24_8 in (var_24_4 calling function) do --var_24_4 FORTEST-FORTEST
+--jump to 0061 (if previous if statement is false) --0061 JMP-JMP
+var_24_7 = var_24_3
+var_24_8 = 1 --var_24_8 NUMBER-NUMBER
+table.remove(var_24_7, var_24_8)
+var_24_7 = var_24_3
+var_24_8 = "/" --var_24_8 STRING-STRING
+var_24_6 = table.concat(var_24_7, var_24_8)
+var_24_7 = "/" --var_24_7 STRING-STRING
+var_24_5 = var_24_6 .. var_24_7
+--location 0061--0061 LOCATION-LOCATION
+var_24_7 = var_24_5
+var_24_8 = var_24_4
+until false or (previous if statement is true) --location 0064
+return uget_24_1(var_24_7, var_24_8)
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc25()
+ISTC unhandled at 0001
+--jump to 0004 (if previous if statement is false) --0004 JMP-JMP
+var_25_2 = "" --var_25_2 STRING-STRING
+--location 0004--0004 LOCATION-LOCATION
+ISTC unhandled at 0004
+for var_25_3, var_25_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0007 (if previous if statement is false) --0007 JMP-JMP
+var_25_3 = "" --var_25_3 STRING-STRING
+--location 0007--0007 LOCATION-LOCATION
+local randomFunction20 = function() end -- starts at  LiveUpdate.LiveUpdateUtil:0
+var_25_5 = randomFunction20
+var_25_6 = var_25_2
+var_25_7 = var_25_3
+return var_25_5(var_25_6, var_25_7)
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc26()
+var_26_2 = cc.FileUtils
+var_26_1 = cc.FileUtils.getInstance(var_26_2)
+var_26_2 = var_26_1
+var_26_3 = INPUT_VAR_0_
+return var_26_1.isFileExist(var_26_2, var_26_3)
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc27()
+var_27_2 = INPUT_VAR_0_
+var_27_1 = os.exists(var_27_2)
+if not var_27_1 then
+--jump to 0011 (if previous if statement is false) --0011 JMP-JMP
+var_27_2 = INPUT_VAR_0_
+return lfs.mkdir(var_27_2)
+--location 0011--0011 LOCATION-LOCATION
+var_27_1 = true --var_27_1 PRIMITIVE-PRIMITIVE
+return var_27_1
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc28()
+var_28_2 = INPUT_VAR_0_
+var_28_1, var_28_2 = lfs.dir(var_28_2)
+repeat
+var_28_3 = var_28_1
+var_28_4 = var_28_2
+var_28_3 = var_28_3(var_28_4)
+if var_28_3 == nil then
+for var_28_4, var_28_5 in (var_28_1 calling function) do --var_28_1 FORTEST-FORTEST
+--jump to 0012 (if previous if statement is false) --0012 JMP-JMP
+for var_28_3, var_28_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0039 (if previous if statement is false) --0039 JMP-JMP
+--location 0012--0012 LOCATION-LOCATION
+if var_28_3 ~=  "." then
+for var_28_4, var_28_5 in (var_28_1 calling function) do --var_28_1 FORTEST-FORTEST
+--jump to 0005 (if previous if statement is false) --0005 JMP-JMP
+if var_28_3 ~=  ".." then
+for var_28_4, var_28_5 in (var_28_1 calling function) do --var_28_1 FORTEST-FORTEST
+--jump to 0005 (if previous if statement is false) --0005 JMP-JMP
+var_28_4 = INPUT_VAR_0_
+var_28_5 = var_28_3
+var_28_4 = var_28_4 .. var_28_5
+var_28_6 = var_28_4
+var_28_7 = "mode" --var_28_7 STRING-STRING
+var_28_5 = lfs.attributes(var_28_6, var_28_7)
+if var_28_5 ==  "directory" then
+for var_28_6, var_28_7 in (var_28_3 calling function) do --var_28_3 FORTEST-FORTEST
+--jump to 0032 (if previous if statement is false) --0032 JMP-JMP
+var_28_7 = var_28_4
+var_28_8 = "/" --var_28_8 STRING-STRING
+var_28_7 = var_28_7 .. var_28_8
+uget_28_0(var_28_7)
+for var_28_6, var_28_7 in (var_28_3 calling function) do --var_28_3 FORTEST-FORTEST
+--jump to 0005 (if previous if statement is false) --0005 JMP-JMP
+--location 0032--0032 LOCATION-LOCATION
+if var_28_5 ==  "file" then
+for var_28_6, var_28_7 in (var_28_3 calling function) do --var_28_3 FORTEST-FORTEST
+--jump to 0005 (if previous if statement is false) --0005 JMP-JMP
+var_28_7 = var_28_4
+os.remove(var_28_7)
+for var_28_3, var_28_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0005 (if previous if statement is false) --0005 JMP-JMP
+--location 0039--0039 LOCATION-LOCATION
+until false or (previous if statement is true) --location 0039
+var_28_4 = INPUT_VAR_0_
+var_28_3, var_28_4 = os.remove(var_28_4)
+if var_28_4 then
+for var_28_5, var_28_6 in (var_28_2 calling function) do --var_28_2 FORTEST-FORTEST
+--jump to 0048 (if previous if statement is false) --0048 JMP-JMP
+var_28_6 = var_28_4
+print(var_28_6)
+--location 0048--0048 LOCATION-LOCATION
+return var_28_3
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc29()
+var_29_2 = "os.rmdir:" --var_29_2 STRING-STRING
+var_29_3 = INPUT_VAR_0_
+print(var_29_2, var_29_3)
+var_29_2 = INPUT_VAR_0_
+var_29_1 = os.exists(var_29_2)
+if var_29_1 then
+--jump to 0016 (if previous if statement is false) --0016 JMP-JMP
+local randomFunction21 = function() end -- starts at  LiveUpdate.LiveUpdateUtil:0
+var_29_2 = randomFunction21
+var_29_3 = INPUT_VAR_0_
+var_29_2(var_29_3)
+--location 0016--0016 LOCATION-LOCATION
+var_29_1 = true --var_29_1 PRIMITIVE-PRIMITIVE
+return var_29_1
+end
+
+-- BYTECODE -- LiveUpdate.LiveUpdateUtil:0-0
+function someFunc30()
+var_30_1 = "lfs" --var_30_1 STRING-STRING
+require(var_30_1)
+local randomFunction22 = function() end -- starts at  LiveUpdate.LiveUpdateUtil:0
+local randomFunction23 = function() end -- starts at  LiveUpdate.LiveUpdateUtil:0
+local randomFunction24 = function() end -- starts at  LiveUpdate.LiveUpdateUtil:0
+checkDirOK = randomFunction24
+local randomFunction25 = function() end -- starts at  LiveUpdate.LiveUpdateUtil:0
+os.exists = randomFunction25
+local randomFunction26 = function() end -- starts at  LiveUpdate.LiveUpdateUtil:0
+os.mkdir = randomFunction26
+local randomFunction27 = function() end -- starts at  LiveUpdate.LiveUpdateUtil:0
+os.rmdir = randomFunction27
+return
+end
+

@@ -1,0 +1,11 @@
+-- BYTECODE -- LiveUpdate.ServerHost:0-0
+function someFunc13()
+var_13_0 = {} --to find out the contents of this table look inside the lua file
+ServerHosts = var_13_0
+var_13_0 = {} --to find out the contents of this table look inside the lua file
+ServerHosts_Test = var_13_0
+var_13_0 = {} --to find out the contents of this table look inside the lua file
+ServerHosts_Local = var_13_0
+return
+end
+

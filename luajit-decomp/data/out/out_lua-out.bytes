@@ -1,0 +1,103 @@
+-- BYTECODE -- lua.bytes:0-0
+function someFunc2()
+var_2_4 = INPUT_VAR_0_
+var_2_5 = INPUT_VAR_1_
+var_2_6 = INPUT_VAR_1_
+var_2_3 = string.sub(var_2_4, var_2_5, var_2_6)
+string.byte(var_2_3)
+end
+
+-- BYTECODE -- lua.bytes:0-0
+function someFunc3()
+var_3_2 = INPUT_VAR_0_
+var_3_1 = string.len(var_3_2)
+if var_3_1 ~= 0 then
+var_3_1 = 0 
+return var_3_1
+var_3_3 = INPUT_VAR_0_
+var_3_4 = 1
+var_3_2 = by(var_3_3, var_3_4)
+var_3_3 = 112
+var_3_1 = bit.bxor(var_3_2, var_3_3)
+var_3_4 = INPUT_VAR_0_
+var_3_5 = 2
+var_3_3 = by(var_3_4, var_3_5)
+var_3_4 = 101
+var_3_2 = bit.bxor(var_3_3, var_3_4)
+var_3_5 = INPUT_VAR_0_
+var_3_6 = 3
+var_3_4 = by(var_3_5, var_3_6)
+var_3_5 = 100
+var_3_3 = bit.bxor(var_3_4, var_3_5)
+var_3_6 = INPUT_VAR_0_
+var_3_7 = 4
+var_3_5 = by(var_3_6, var_3_7)
+var_3_6 = 105 --var_3_6 NUMBER-NUMBER
+var_3_4 = bit.bxor(var_3_5, var_3_6)
+var_3_7 = INPUT_VAR_0_
+var_3_8 = 5 --var_3_8 NUMBER-NUMBER
+var_3_6 = by(var_3_7, var_3_8)
+var_3_7 = 121 --var_3_7 NUMBER-NUMBER
+var_3_5 = bit.bxor(var_3_6, var_3_7)
+var_3_8 = INPUT_VAR_0_
+var_3_9 = 6 --var_3_9 NUMBER-NUMBER
+var_3_7 = by(var_3_8, var_3_9)
+var_3_8 = 49 --var_3_8 NUMBER-NUMBER
+var_3_6 = bit.bxor(var_3_7, var_3_8)
+var_3_9 = INPUT_VAR_0_
+var_3_10 = 7 --var_3_10 NUMBER-NUMBER
+var_3_8 = by(var_3_9, var_3_10)
+var_3_9 = 50 --var_3_9 NUMBER-NUMBER
+until false or (previous if statement is true) --location 0064
+var_3_7 = bit.bxor(var_3_8, var_3_9)
+var_3_10 = INPUT_VAR_0_
+var_3_11 = 8 --var_3_11 NUMBER-NUMBER
+var_3_9 = by(var_3_10, var_3_11)
+var_3_10 = 51 --var_3_10 NUMBER-NUMBER
+var_3_8 = bit.bxor(var_3_9, var_3_10)
+var_3_11 = INPUT_VAR_0_
+var_3_12 = 9 --var_3_12 NUMBER-NUMBER
+var_3_10 = by(var_3_11, var_3_12)
+var_3_11 = 52 --var_3_11 NUMBER-NUMBER
+var_3_9 = bit.bxor(var_3_10, var_3_11)
+var_3_12 = INPUT_VAR_0_
+var_3_13 = 10 --var_3_13 NUMBER-NUMBER
+var_3_11 = by(var_3_12, var_3_13)
+var_3_12 = 53 --var_3_12 NUMBER-NUMBER
+var_3_10 = bit.bxor(var_3_11, var_3_12)
+var_3_13 = INPUT_VAR_0_
+var_3_14 = 11 --var_3_14 NUMBER-NUMBER
+var_3_12 = by(var_3_13, var_3_14)
+var_3_13 = 54 --var_3_13 NUMBER-NUMBER
+var_3_11 = bit.bxor(var_3_12, var_3_13)
+var_3_14 = INPUT_VAR_0_
+var_3_15 = 12 --var_3_15 NUMBER-NUMBER
+var_3_13 = by(var_3_14, var_3_15)
+var_3_14 = 55 --var_3_14 NUMBER-NUMBER
+var_3_12 = bit.bxor(var_3_13, var_3_14)
+var_3_13 = var_3_1
+var_3_14 = var_3_2
+var_3_15 = var_3_3
+var_3_16 = var_3_4
+var_3_17 = var_3_5
+var_3_18 = var_3_6
+var_3_19 = var_3_7
+var_3_20 = var_3_8
+var_3_21 = var_3_9
+var_3_22 = var_3_10
+var_3_23 = var_3_11
+var_3_24 = var_3_12
+return var_3_13, var_3_14, var_3_15, var_3_16, var_3_17, var_3_18, var_3_19, var_3_20, var_3_21, var_3_22, var_3_23, var_3_24
+end
+
+-- BYTECODE -- lua.bytes:0-0
+function someFunc4()
+var_4_1 = "bit" --var_4_1 STRING-STRING
+require(var_4_1)
+local randomFunction43 = function() end -- starts at  lua.bytes:0
+by = randomFunction43
+local randomFunction44 = function() end -- starts at  lua.bytes:0
+main = randomFunction44
+return
+end
+

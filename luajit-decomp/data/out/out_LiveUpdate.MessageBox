@@ -1,0 +1,477 @@
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc6()
+return
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc7()
+--VARG appeared here - that usually means that the input for this function should be (...) and anywhere you see var0 or var1 or var2 ect. in this function should be replaced by (...)
+var_7_0 = uget_7_0.__create(INPUT_VAR_1_)
+var_7_1, var_7_2, var_7_3 = pairs(uget_7_0)
+for var_7_4, var_7_5 in (var_7_1 calling function) do --var_7_1 FORTEST-FORTEST
+var_7_0[var_7_4] = var_7_5
+end --end of a for loop
+var_7_0.class = uget_7_0
+var_7_2 = var_7_0
+--VARG appeared here - that usually means that the input for this function should be (...) and anywhere you see var0 or var1 or var2 ect. in this function should be replaced by (...)
+var_7_0.ctor(var_7_2, var_7_3)
+return var_7_0
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc8()
+return
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc9()
+var_9_1 = {}
+var_9_0 = setmetatable(var_9_1, uget_9_0)
+var_9_0.class = uget_9_0
+var_9_2 = var_9_0
+--VARG appeared here - that usually means that the input for this function should be (...) and anywhere you see var0 or var1 or var2 ect. in this function should be replaced by (...)
+var_9_0.ctor(var_9_2, INPUT_VAR_3_)
+return var_9_0
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc10()
+var_10_3 = INPUT_VAR_1_
+var_10_2 = type(var_10_3)
+var_10_3 = nil --var_10_3 PRIMITIVE-PRIMITIVE
+if var_10_2 ~=  "function" then
+for var_10_4, var_10_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0011 (if previous if statement is false) --0011 JMP-JMP
+if var_10_2 ~=  "table" then
+for var_10_4, var_10_5 in (INPUT_VAR_1_ calling function) do --INPUT_VAR_1_ FORTEST-FORTEST
+--jump to 0011 (if previous if statement is false) --0011 JMP-JMP
+var_10_2 = nil --var_10_2 PRIMITIVE-PRIMITIVE
+var_10_1 = nil --var_10_1 PRIMITIVE-PRIMITIVE
+--location 0011--0011 LOCATION-LOCATION
+if var_10_2 ~=  "function" then
+for var_10_4, var_10_5 in (var_10_1 calling function) do --var_10_1 FORTEST-FORTEST
+--jump to 0018 (if previous if statement is false) --0018 JMP-JMP
+if var_10_1 then
+for var_10_4, var_10_5 in (var_10_1 calling function) do --var_10_1 FORTEST-FORTEST
+--jump to 0041 (if previous if statement is false) --0041 JMP-JMP
+if var_10_1.__ctype == 0 then
+for var_10_4, var_10_5 in (var_10_1 calling function) do --var_10_1 FORTEST-FORTEST
+--jump to 0041 (if previous if statement is false) --0041 JMP-JMP
+--location 0018--0018 LOCATION-LOCATION
+var_10_3 = {}
+if var_10_2 ==  "table" then
+for var_10_4, var_10_5 in (var_10_1 calling function) do --var_10_1 FORTEST-FORTEST
+--jump to 0032 (if previous if statement is false) --0032 JMP-JMP
+var_10_5 = var_10_1
+var_10_4, var_10_5, var_10_6 = pairs(var_10_5)
+for var_10_7, var_10_8 in (var_10_4 calling function) do --var_10_4 FORTEST-FORTEST
+var_10_3[var_10_7] = var_10_8
+end --end of a for loop
+var_10_3.__create = var_10_1.__create
+var_10_3.super = var_10_1
+for var_10_4, var_10_5 in (var_10_1 calling function) do --var_10_1 FORTEST-FORTEST
+--jump to 0035 (if previous if statement is false) --0035 JMP-JMP
+--location 0032--0032 LOCATION-LOCATION
+var_10_3.__create = var_10_1
+local randomFunction32 = function() end -- starts at  LiveUpdate.MessageBox:0
+var_10_3.ctor = randomFunction32
+--location 0035--0035 LOCATION-LOCATION
+var_10_3.__cname = INPUT_VAR_0_
+var_10_4 = 1 --var_10_4 NUMBER-NUMBER
+var_10_3.__ctype = var_10_4
+local randomFunction33 = function() end -- starts at  LiveUpdate.MessageBox:0
+until false or (previous if statement is true) --location 0039
+var_10_3.new = randomFunction33
+for var_10_4, var_10_5 in (var_10_1 calling function) do --var_10_1 FORTEST-FORTEST
+--jump to 0061 (if previous if statement is false) --0061 JMP-JMP
+--location 0041--0041 LOCATION-LOCATION
+if var_10_1 then
+for var_10_4, var_10_5 in (var_10_1 calling function) do --var_10_1 FORTEST-FORTEST
+--jump to 0051 (if previous if statement is false) --0051 JMP-JMP
+var_10_3 = {}
+var_10_5 = var_10_3
+var_10_6 = {} --to find out the contents of this table look inside the lua file
+var_10_6.__index = var_10_1
+setmetatable(var_10_5, var_10_6)
+var_10_3.super = var_10_1
+for var_10_4, var_10_5 in (var_10_1 calling function) do --var_10_1 FORTEST-FORTEST
+--jump to 0055 (if previous if statement is false) --0055 JMP-JMP
+--location 0051--0051 LOCATION-LOCATION
+var_10_4 = {} --to find out the contents of this table look inside the lua file
+local randomFunction34 = function() end -- starts at  LiveUpdate.MessageBox:0
+var_10_4.ctor = randomFunction34
+var_10_3 = var_10_4
+--location 0055--0055 LOCATION-LOCATION
+var_10_3.__cname = INPUT_VAR_0_
+var_10_4 = 2 --var_10_4 NUMBER-NUMBER
+var_10_3.__ctype = var_10_4
+var_10_3.__index = var_10_3
+local randomFunction35 = function() end -- starts at  LiveUpdate.MessageBox:0
+var_10_3.new = randomFunction35
+--location 0061--0061 LOCATION-LOCATION
+return var_10_3
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc11()
+var_11_1 = cc.LayerColor
+var_11_2 = {} --to find out the contents of this table look inside the lua file
+return cc.LayerColor.create(var_11_1, var_11_2)
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc12()
+return
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc13()
+if INPUT_VAR_1_ == 0 then
+--jump to 0046 (if previous if statement is false) --0046 JMP-JMP
+if uget_13_0 then
+for var_13_3, var_13_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0008 (if previous if statement is false) --0008 JMP-JMP
+uget_13_0()
+--location 0008--0008 LOCATION-LOCATION
+if INPUT_VAR_0_ == uget_13_1 then
+--jump to 0021 (if previous if statement is false) --0021 JMP-JMP
+if uget_13_2 then
+for var_13_3, var_13_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0016 (if previous if statement is false) --0016 JMP-JMP
+uget_13_2()
+--location 0016--0016 LOCATION-LOCATION
+var_13_3 = uget_13_3
+uget_13_3.removeFromParent(var_13_3)
+--jump to 0046 (if previous if statement is false) --0046 JMP-JMP
+--location 0021--0021 LOCATION-LOCATION
+if INPUT_VAR_0_ == uget_13_4 then
+--jump to 0034 (if previous if statement is false) --0034 JMP-JMP
+if uget_13_5 then
+for var_13_3, var_13_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0029 (if previous if statement is false) --0029 JMP-JMP
+uget_13_5()
+--location 0029--0029 LOCATION-LOCATION
+var_13_3 = uget_13_3
+uget_13_3.removeFromParent(var_13_3)
+--jump to 0046 (if previous if statement is false) --0046 JMP-JMP
+--location 0034--0034 LOCATION-LOCATION
+if INPUT_VAR_0_ == uget_13_6 then
+--jump to 0046 (if previous if statement is false) --0046 JMP-JMP
+if uget_13_5 then
+until false or (previous if statement is true) --location 0039
+for var_13_3, var_13_4 in (INPUT_VAR_0_ calling function) do --INPUT_VAR_0_ FORTEST-FORTEST
+--jump to 0042 (if previous if statement is false) --0042 JMP-JMP
+uget_13_5()
+--location 0042--0042 LOCATION-LOCATION
+var_13_3 = uget_13_3
+uget_13_3.removeFromParent(var_13_3)
+--location 0046--0046 LOCATION-LOCATION
+return
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc14()
+var_14_1 = uget_14_0
+uget_14_0.stopAllActions(var_14_1)
+var_14_1 = uget_14_0
+uget_14_0.removeFromParent(var_14_1)
+if _callBack then
+--jump to 0014 (if previous if statement is false) --0014 JMP-JMP
+_callBack()
+--location 0014--0014 LOCATION-LOCATION
+return
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc15()
+var_15_9 = ccui.Layout
+var_15_8 = ccui.Layout.create(var_15_9)
+var_15_10 = var_15_8
+var_15_11 = {} --to find out the contents of this table look inside the lua file
+var_15_8.setContentSize(var_15_10, var_15_11)
+var_15_10 = var_15_8
+var_15_11 = true --var_15_11 PRIMITIVE-PRIMITIVE
+var_15_8.setTouchEnabled(var_15_10, var_15_11)
+var_15_10 = INPUT_VAR_0_
+var_15_11 = var_15_8
+INPUT_VAR_0_.addChild(var_15_10, var_15_11)
+if not INPUT_VAR_7_ then
+for var_15_9, var_15_10 in (INPUT_VAR_6_ calling function) do --INPUT_VAR_6_ FORTEST-FORTEST
+--jump to 0021 (if previous if statement is false) --0021 JMP-JMP
+var_15_7 = {}
+--location 0021--0021 LOCATION-LOCATION
+if not INPUT_VAR_1_ then
+for var_15_9, var_15_10 in (INPUT_VAR_6_ calling function) do --INPUT_VAR_6_ FORTEST-FORTEST
+--jump to 0032 (if previous if statement is false) --0032 JMP-JMP
+var_15_10 = cc.Director
+var_15_9 = cc.Director.getInstance(var_15_10)
+var_15_10 = var_15_9
+var_15_9 = var_15_9.getRunningScene(var_15_10)
+var_15_1 = var_15_9
+--location 0032--0032 LOCATION-LOCATION
+var_15_10 = var_15_1
+var_15_11 = INPUT_VAR_0_
+var_15_1.addChild(var_15_10, var_15_11)
+var_15_10 = INPUT_VAR_0_
+var_15_11 = true --var_15_11 PRIMITIVE-PRIMITIVE
+until false or (previous if statement is true) --location 0039
+INPUT_VAR_0_.setTouchEnabled(var_15_10, var_15_11)
+var_15_9 = nil --var_15_9 PRIMITIVE-PRIMITIVE
+LEN unhandled at 0041
+if var_15_10 == 0 then
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0072 (if previous if statement is false) --0072 JMP-JMP
+var_15_11 = cc.SpriteFrameCache
+var_15_10 = cc.SpriteFrameCache.getInstance(var_15_11)
+var_15_11 = var_15_10
+var_15_12 = "Public_image.plist" --var_15_12 STRING-STRING
+var_15_13 = "Public_image.png" --var_15_13 STRING-STRING
+var_15_10.addSpriteFrames(var_15_11, var_15_12, var_15_13)
+var_15_11 = cc.SpriteFrameCache
+var_15_10 = cc.SpriteFrameCache.getInstance(var_15_11)
+var_15_11 = var_15_10
+var_15_12 = "FishHall_single.plist" --var_15_12 STRING-STRING
+var_15_13 = "FishHall_single.png" --var_15_13 STRING-STRING
+var_15_10.addSpriteFrames(var_15_11, var_15_12, var_15_13)
+until false or (previous if statement is true) --location 0064
+var_15_11 = cc.Sprite
+var_15_12 = "p_remark_bk" --var_15_12 STRING-STRING
+var_15_10 = cc.Sprite.createWithSpriteFrameName(var_15_11, var_15_12)
+var_15_9 = var_15_10
+for var_15_10, var_15_11 in (var_15_7 calling function) do --var_15_7 FORTEST-FORTEST
+--jump to 0079 (if previous if statement is false) --0079 JMP-JMP
+--location 0072--0072 LOCATION-LOCATION
+var_15_11 = cc.Sprite
+var_15_10 = cc.Sprite.create(var_15_11, var_15_7.unknownB34)
+var_15_9 = var_15_10
+--location 0079--0079 LOCATION-LOCATION
+var_15_11 = cc.Director
+var_15_10 = cc.Director.getInstance(var_15_11)
+var_15_11 = var_15_10
+var_15_10 = var_15_10.getWinSize(var_15_11)
+var_15_12 = var_15_9
+var_15_13 = {} --to find out the contents of this table look inside the lua file
+var_15_14 = var_15_10.width /  2 --var_15_14 NUMBER-NUMBER
+var_15_13.x = var_15_14
+var_15_14 = var_15_10.height /  2 --var_15_14 NUMBER-NUMBER
+var_15_13.y = var_15_14
+var_15_9.setPosition(var_15_12, var_15_13)
+var_15_12 = INPUT_VAR_0_
+var_15_13 = var_15_9
+INPUT_VAR_0_.addChild(var_15_12, var_15_13)
+var_15_12 = cc.Label
+var_15_13 = "" --var_15_13 STRING-STRING
+var_15_14 = "微软雅黑" --var_15_14 STRING-STRING
+var_15_15 = 30 --var_15_15 NUMBER-NUMBER
+var_15_16 = {} --to find out the contents of this table look inside the lua file
+var_15_17 = 1 --var_15_17 NUMBER-NUMBER
+var_15_11 = cc.Label.createWithSystemFont(var_15_12, var_15_13, var_15_14, var_15_15, var_15_16, var_15_17)
+var_15_13 = var_15_11
+var_15_14 = {} --to find out the contents of this table look inside the lua file
+var_15_11.setAnchorPoint(var_15_13, var_15_14)
+var_15_13 = var_15_11
+var_15_14 = {} --to find out the contents of this table look inside the lua file
+var_15_11.setPosition(var_15_13, var_15_14)
+var_15_13 = var_15_11
+var_15_14 = {} --to find out the contents of this table look inside the lua file
+var_15_11.setColor(var_15_13, var_15_14)
+var_15_13 = var_15_11
+var_15_14 = INPUT_VAR_2_
+var_15_11.setString(var_15_13, var_15_14)
+var_15_13 = var_15_9
+var_15_14 = var_15_11
+var_15_9.addChild(var_15_13, var_15_14)
+var_15_13 = var_15_11
+var_15_14 = 500 --var_15_14 NUMBER-NUMBER
+var_15_15 = 170 --var_15_15 NUMBER-NUMBER
+var_15_11.setDimensions(var_15_13, var_15_14, var_15_15)
+var_15_12 = nil
+var_15_13 = nil
+var_15_14 = nil
+LEN unhandled at 0137
+if var_15_15 == 0 then
+for var_15_15, var_15_16 in (var_15_12 calling function) do --var_15_12 FORTEST-FORTEST
+--jump to 0171 (if previous if statement is false) --0171 JMP-JMP
+var_15_16 = ccui.Button
+var_15_17 = "p_btn_ok" --var_15_17 STRING-STRING
+var_15_18 = "" --var_15_18 STRING-STRING
+var_15_19 = "" --var_15_19 STRING-STRING
+var_15_20 = 1 --var_15_20 NUMBER-NUMBER
+var_15_15 = ccui.Button.create(var_15_16, var_15_17, var_15_18, var_15_19, var_15_20)
+var_15_12 = var_15_15
+var_15_16 = ccui.Button
+var_15_17 = "p_btn_cancel" --var_15_17 STRING-STRING
+var_15_18 = "" --var_15_18 STRING-STRING
+var_15_19 = "" --var_15_19 STRING-STRING
+var_15_20 = 1 --var_15_20 NUMBER-NUMBER
+var_15_15 = ccui.Button.create(var_15_16, var_15_17, var_15_18, var_15_19, var_15_20)
+var_15_13 = var_15_15
+var_15_16 = ccui.Button
+var_15_17 = "p_btn_close" --var_15_17 STRING-STRING
+var_15_18 = "" --var_15_18 STRING-STRING
+var_15_19 = "" --var_15_19 STRING-STRING
+var_15_20 = 1 --var_15_20 NUMBER-NUMBER
+var_15_15 = ccui.Button.create(var_15_16, var_15_17, var_15_18, var_15_19, var_15_20)
+var_15_14 = var_15_15
+for var_15_15, var_15_16 in (var_15_12 calling function) do --var_15_12 FORTEST-FORTEST
+--jump to 0195 (if previous if statement is false) --0195 JMP-JMP
+--location 0171--0171 LOCATION-LOCATION
+var_15_16 = var_15_7
+print_r(var_15_16)
+var_15_16 = ccui.Button
+var_15_15 = ccui.Button.create(var_15_16, var_15_7.unknownB35)
+var_15_12 = var_15_15
+var_15_16 = ccui.Button
+var_15_15 = ccui.Button.create(var_15_16, var_15_7.unknownB36)
+var_15_13 = var_15_15
+var_15_16 = ccui.Button
+var_15_15 = ccui.Button.create(var_15_16, var_15_7.unknownB37)
+var_15_14 = var_15_15
+--location 0195--0195 LOCATION-LOCATION
+var_15_16 = var_15_9
+var_15_17 = var_15_12
+var_15_9.addChild(var_15_16, var_15_17)
+var_15_16 = var_15_9
+var_15_17 = var_15_13
+var_15_9.addChild(var_15_16, var_15_17)
+var_15_16 = var_15_14
+var_15_17 = {} --to find out the contents of this table look inside the lua file
+var_15_14.setPosition(var_15_16, var_15_17)
+var_15_16 = var_15_9
+var_15_17 = var_15_14
+var_15_9.addChild(var_15_16, var_15_17)
+local randomFunction36 = function() end -- starts at  LiveUpdate.MessageBox:0
+var_15_17 = var_15_12
+var_15_18 = randomFunction36
+var_15_12.addTouchEventListener(var_15_17, var_15_18)
+var_15_17 = var_15_13
+var_15_18 = randomFunction36
+var_15_13.addTouchEventListener(var_15_17, var_15_18)
+var_15_17 = var_15_14
+var_15_18 = randomFunction36
+var_15_14.addTouchEventListener(var_15_17, var_15_18)
+var_15_17 = var_15_14
+if INPUT_VAR_3_ ~= 2 then
+for var_15_18, var_15_19 in (randomFunction36 calling function) do --randomFunction36 FORTEST-FORTEST
+--jump to 0230 (if previous if statement is false) --0230 JMP-JMP
+var_15_18 = false --var_15_18 PRIMITIVE-PRIMITIVE
+for var_15_19, var_15_20 in (var_15_14.setVisible calling function) do --var_15_14.setVisible FORTEST-FORTEST
+--jump to 0231 (if previous if statement is false) --0231 JMP-JMP
+--location 0230--0230 LOCATION-LOCATION
+var_15_18 = true --var_15_18 PRIMITIVE-PRIMITIVE
+--location 0231--0231 LOCATION-LOCATION
+var_15_14.setVisible(var_15_17, var_15_18)
+if INPUT_VAR_3_ == 2 then
+for var_15_16, var_15_17 in (var_15_13 calling function) do --var_15_13 FORTEST-FORTEST
+--jump to 0257 (if previous if statement is false) --0257 JMP-JMP
+var_15_17 = var_15_12
+var_15_18 = {} --to find out the contents of this table look inside the lua file
+var_15_20 = var_15_9
+var_15_19 = var_15_9.getContentSize(var_15_20)
+var_15_19 = var_15_19.width /  2 --var_15_19 NUMBER-NUMBER
+var_15_19 = var_15_19 -  140 --var_15_19 NUMBER-NUMBER
+var_15_18.x = var_15_19
+var_15_12.setPosition(var_15_17, var_15_18)
+var_15_17 = var_15_13
+var_15_18 = {} --to find out the contents of this table look inside the lua file
+var_15_20 = var_15_9
+var_15_19 = var_15_9.getContentSize(var_15_20)
+var_15_19 = var_15_19.width /  2 --var_15_19 NUMBER-NUMBER
+var_15_19 = var_15_19 +  125 --var_15_19 NUMBER-NUMBER
+var_15_18.x = var_15_19
+var_15_13.setPosition(var_15_17, var_15_18)
+for var_15_16, var_15_17 in (var_15_13 calling function) do --var_15_13 FORTEST-FORTEST
+--jump to 0343 (if previous if statement is false) --0343 JMP-JMP
+--location 0257--0257 LOCATION-LOCATION
+if INPUT_VAR_3_ == 1 then
+for var_15_16, var_15_17 in (var_15_13 calling function) do --var_15_13 FORTEST-FORTEST
+--jump to 0274 (if previous if statement is false) --0274 JMP-JMP
+var_15_17 = var_15_13
+var_15_18 = false --var_15_18 PRIMITIVE-PRIMITIVE
+var_15_13.setVisible(var_15_17, var_15_18)
+var_15_17 = var_15_12
+var_15_18 = {} --to find out the contents of this table look inside the lua file
+var_15_20 = var_15_9
+var_15_19 = var_15_9.getContentSize(var_15_20)
+var_15_19 = var_15_19.width /  2 --var_15_19 NUMBER-NUMBER
+var_15_18.x = var_15_19
+var_15_12.setPosition(var_15_17, var_15_18)
+for var_15_16, var_15_17 in (var_15_13 calling function) do --var_15_13 FORTEST-FORTEST
+--jump to 0343 (if previous if statement is false) --0343 JMP-JMP
+--location 0274--0274 LOCATION-LOCATION
+if INPUT_VAR_3_ == 5 then
+for var_15_16, var_15_17 in (var_15_13 calling function) do --var_15_13 FORTEST-FORTEST
+--jump to 0292 (if previous if statement is false) --0292 JMP-JMP
+var_15_17 = var_15_12
+var_15_18 = false --var_15_18 PRIMITIVE-PRIMITIVE
+var_15_12.setVisible(var_15_17, var_15_18)
+var_15_17 = var_15_13
+var_15_18 = {} --to find out the contents of this table look inside the lua file
+var_15_20 = var_15_9
+var_15_19 = var_15_9.getContentSize(var_15_20)
+var_15_19 = var_15_19.width /  2 --var_15_19 NUMBER-NUMBER
+var_15_19 = var_15_19 +  125 --var_15_19 NUMBER-NUMBER
+var_15_18.x = var_15_19
+var_15_13.setPosition(var_15_17, var_15_18)
+for var_15_16, var_15_17 in (var_15_13 calling function) do --var_15_13 FORTEST-FORTEST
+--jump to 0343 (if previous if statement is false) --0343 JMP-JMP
+--location 0292--0292 LOCATION-LOCATION
+var_15_17 = "消失的框" --var_15_17 STRING-STRING
+print(var_15_17)
+var_15_17 = var_15_12
+var_15_18 = false --var_15_18 PRIMITIVE-PRIMITIVE
+var_15_12.setVisible(var_15_17, var_15_18)
+var_15_17 = var_15_13
+var_15_18 = false --var_15_18 PRIMITIVE-PRIMITIVE
+var_15_13.setVisible(var_15_17, var_15_18)
+var_15_16 = {}
+var_15_18 = cc.DelayTime
+var_15_19 = 1 --var_15_19 NUMBER-NUMBER
+var_15_17 = cc.DelayTime.create(var_15_18, var_15_19)
+var_15_16[1] = var_15_17
+var_15_18 = cc.FadeTo
+var_15_19 = 0.2 --var_15_19 NUMBER-NUMBER
+var_15_20 = 100 --var_15_20 NUMBER-NUMBER
+var_15_17 = cc.FadeTo.create(var_15_18, var_15_19, var_15_20)
+var_15_16[2] = var_15_17
+var_15_18 = cc.FadeTo
+var_15_19 = 0.1 --var_15_19 NUMBER-NUMBER
+var_15_20 = 25 --var_15_20 NUMBER-NUMBER
+var_15_17 = cc.FadeTo.create(var_15_18, var_15_19, var_15_20)
+var_15_16[3] = var_15_17
+var_15_18 = cc.CallFunc
+local randomFunction37 = function() end -- starts at  LiveUpdate.MessageBox:0
+var_15_17 = cc.CallFunc.create(var_15_18, randomFunction37)
+var_15_16[4] = var_15_17
+var_15_18 = INPUT_VAR_0_
+var_15_20 = cc.Sequence
+var_15_21 = var_15_16
+var_15_19 = cc.Sequence.create(var_15_20, var_15_21) --var_15_19 REPLACE-REPLACE
+INPUT_VAR_0_.runAction(var_15_18, var_15_19)
+--location 0343--0343 LOCATION-LOCATION
+return
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc16()
+var_16_2 = INPUT_VAR_0_
+INPUT_VAR_0_.stopAllActions(var_16_2)
+return
+end
+
+-- BYTECODE -- LiveUpdate.MessageBox:0-0
+function someFunc17()
+local randomFunction38 = function() end -- starts at  LiveUpdate.MessageBox:0
+class = randomFunction38
+var_17_1 = "MessageBox" --var_17_1 STRING-STRING
+local randomFunction39 = function() end -- starts at  LiveUpdate.MessageBox:0
+var_17_0 = class(var_17_1, randomFunction39)
+local randomFunction40 = function() end -- starts at  LiveUpdate.MessageBox:0
+var_17_0.ctor = randomFunction40
+local randomFunction41 = function() end -- starts at  LiveUpdate.MessageBox:0
+var_17_0.init = randomFunction41
+local randomFunction42 = function() end -- starts at  LiveUpdate.MessageBox:0
+var_17_0.onExit = randomFunction42
+return var_17_0
+end
+

@@ -1,0 +1,12 @@
+1、新建一个名为1.lua的文件，里面只有一句话print("Hello Lua")，新建一个空的out.lua脚本文件 
+2、开始--运行--cmd 
+3、luajit -b [脚本名] [编译后的脚本名]
+	luajit.exe -b my.lua jit.lua
+
+jit.lua的bytecode:
+1b4c 4a02 0227 0200 0200 0200 0436 0000
+0027 0101 0042 0002 014b 0001 000e 4865
+6c6c 6f20 4c75 610a 7072 696e 7400  
+
+4、luajit直接解析luajit编译出来的bytecode脚本
+> luajit.exe jit.lua

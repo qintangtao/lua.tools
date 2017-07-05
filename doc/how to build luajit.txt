@@ -1,0 +1,3 @@
+1、打开visual studio的命令行工具，这个只要装了vs都会有，在安装目录里面可以找到。 
+2、用vs的命令行工具cd到luajit的src目录 
+3、执行msvcbuild.bat批处理文件，编译出luajit.exe 
